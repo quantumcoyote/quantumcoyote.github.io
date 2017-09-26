@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+table {
+    table-layout : fixed;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align:center; 
+    }
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+
+<title>Uranyl Peroxide Nanocapsules</title>
+<meta charset="utf-8">
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript"> 
+
+// supersimple2.htm - illustrating the use of jQuery(document).ready to 
+// populate all spans and divs AFTER the page is loaded.
+// This is good programming practice.
+
+$(document).ready(
+
+function() {
+
+Info = {
+	width: 600,
+	height: 600,
+	debug: false,
+	j2sPath: "j2s",
+	color: "0xC0C0C0",
+  disableJ2SLoadMonitor: true,
+  disableInitialConsole: true,
+	addSelectionOptions: false,
+	serverURL: "http://chemapps.stolaf.edu/jmol/jsmol/php/jsmol.php",
+	use: "HTML5",
+	readyFunction: null
+}
+
+$("#mydiv").html(Jmol.getAppletHtml("jmolApplet0",Info))
+
+
+}
+
+
+);
+
+$(document).ready(function() {
+    var user = "none";
+    $(".user").click(function() {
+       user = $(this).attr("data-name");
+    });
+
+    $("#test").click(function() {
+       alert(user);
+    });
+});
+
+
+</script>
+</head>
+<body>
+<div align="center">
+<h1> U<sub>20</sub> Isomers </h1>
+</br>
+<span id=mydiv></span>
+</div>
+</body>
+  </br>
+  </br>
+ 
+  <table align="center" style="width:80%">
+  <tr>
+    <th></th> 
+    <th>S</th>
+    <th>P</th>
+    <th>H</th>
+    <th>S-S</th>
+    <th>S-P</th>
+    <th>S-H</th>
+    <th>P-P</th>
+    <th>P-H</th> 
+    <th>H-H</th> 
+    <th>Rel. Energy</th>  
+  </tr>
+  <tr>
+  <td> <button onclick="javascript:Jmol.loadFile(jmolApplet0,'data/run2.xyz')" type="button">Show</button> </td>      
+    <td>0</td>
+    <td>12</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>30</td>
+    <td>0</td> 
+    <td>0</td> 
+    <td>0</td> 
+  </tr>
+</table> 
+
+
+ </html>
