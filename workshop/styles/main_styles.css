@@ -1,4 +1,4 @@
-@charset "utf-8";
+	@charset "utf-8";
 /* CSS Document */
 
 /******************************
@@ -289,11 +289,11 @@ section
 }
 .button_1
 {
-	background: #ffffff;
+	background: #ffebeb;
 }
 .button_2
 {
-	background: #7f66ff;
+	background: #ae3434;
 }
 .button_3
 {
@@ -301,7 +301,7 @@ section
 }
 .button_4
 {
-	background: #7f66ff;
+	background: #ae3434;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -320,7 +320,7 @@ section
 }
 .button_1::after
 {
-	background: #7f66ff;
+	background: #ae3434;
 }
 .button_2::after
 {
@@ -346,7 +346,8 @@ section
 }
 .button_1 a
 {
-	color: #081624;
+/* color text box */
+	color: #ae3434;
 }
 .button_2 a
 {
@@ -407,7 +408,7 @@ section
 	width: calc(100% - 48px);
 	background: #0a2642;
 	z-index: 100;
-	border-bottom: solid 2px #7f66ff;
+	border-bottom: solid 2px #ae3434;
 }
 .header_content
 {
@@ -440,7 +441,7 @@ section
 	font-size: 30px;
 	line-height: 0.75;
 	font-weight: 500;
-	color: #7f66ff;
+	color: #ae3434;
 	text-transform: uppercase;
 }
 .logo a > span > span
@@ -487,7 +488,7 @@ section
 }
 .main_nav > ul > li.active.has_children > a::after
 {
-	color: #7f66ff;
+	color: #ae3434;
 }
 .main_nav > ul > li:not(:last-of-type)
 {
@@ -504,7 +505,7 @@ section
 .main_nav > ul > li.active a,
 .main_nav > ul > li > a:hover::after
 {
-	color: #7f66ff;
+	color: #ae3434;
 }
 .main_nav ul li > ul
 {
@@ -538,7 +539,7 @@ section
 }
 .main_nav ul li > ul > li a
 {
-	color: #7f66ff;
+	color: #ae3434;
 }
 .main_nav ul li > ul > li a:hover
 {
@@ -549,7 +550,7 @@ section
 	position: absolute;
 	top: -20px;
 	left: 100%;
-	border-left: solid 3px #7f66ff;
+	border-left: solid 3px #ae3434;
 }
 .main_nav > ul > li.has_children > ul li.has_children > a::after
 {
@@ -580,7 +581,7 @@ section
 {
 	height: 100%;
 	width: 200px;
-	background: #7f66ff;
+	background: #ae3434;
 	text-align: center;
 }
 .header_link a
@@ -649,7 +650,7 @@ section
 }
 .social ul li:hover
 {
-	background: #7f66ff;
+	background: #ae3434;
 }
 .social ul li a
 {
@@ -688,7 +689,7 @@ section
 }
 .log_reg ul li a:hover
 {
-	color: #7f66ff;
+	color: #ae3434;
 }
 .hamburger
 {
@@ -708,7 +709,7 @@ section
 }
 .hamburger:hover i
 {
-	color: #7f66ff;
+	color: #ae3434;
 }
 
 /*********************************
@@ -756,7 +757,7 @@ section
 }
 .menu_close:hover i
 {
-	color: #7f66ff;
+	color: #ae3434;
 }
 .menu_content
 {
@@ -784,7 +785,7 @@ section
 }
 .menu_nav ul li a:hover
 {
-	color: #7f66ff;
+	color: #ae3434;
 }
 .menu_social
 {
@@ -829,16 +830,18 @@ section
 }
 .home_title h1 span
 {
+/* COLOR OF TEXT BOTTOM */
 	display: block;
 	font-size: 90px;
 	font-weight: 700;
-	color: #ffffff;
+	color: #ae3434;
 	line-height: 1;
 	font-style: italic;
 }
 .home_title h1 span:first-of-type
 {
-	color: #ff9000;
+/* COLOR OF TEXT TOP */
+	color: #ae3434;
 }
 .home_info_container
 {
@@ -846,11 +849,12 @@ section
 }
 .home_info
 {
+/* COLOR OF BOX */
 	display: inline-block;
 	height: 49px;
 	padding-left: 22px;
 	padding-right: 24px;
-	background: #7f66ff;
+	background: #ae3434;
 }
 .home_info ul
 {
@@ -909,7 +913,7 @@ section
 .home_slider_custom_dot.active,
 .home_slider_custom_dot:hover
 {
-	background: #7f66ff;
+	background: #ae3434;
 }
 .home_slider .owl-dots
 {
@@ -1049,7 +1053,7 @@ section
 }
 .tab:hover
 {
-	background: #7f66ff;
+	background: #ae3434;
 	color: #ffffff;
 }
 .tab:not(:last-child)
@@ -1058,7 +1062,7 @@ section
 }
 .tab.active
 {
-	background: #7f66ff;
+	background: #ae3434;
 	color: #ffffff;
 }
 .tab_panels
@@ -1124,7 +1128,7 @@ section
 {
 	font-size: 14px;
 	font-weight: 700;
-	color: #7f66ff;
+	color: #ae3434;
 	text-decoration: underline;
 }
 .tab_link a:hover
@@ -1165,7 +1169,7 @@ section
 }
 .schedule_title_bar_1
 {
-	background: #7f66ff;
+	background: #ae3434;
 }
 .schedule_title_bar_2
 {
@@ -1215,7 +1219,7 @@ section
 {
 	font-size: 14px;
 	font-weight: 700;
-	color: #7f66ff;
+	color: #ae3434;
 }
 .schedule_title
 {
@@ -1233,7 +1237,7 @@ section
 }
 .schedule_info a
 {
-	color: #7f66ff;
+	color: #ae3434;
 	margin-left: 3px;
 }
 .schedule_info a:hover
@@ -1268,7 +1272,7 @@ section
 	width: 100%;
 	height: 100%;
 	content: '';
-	border: solid 1px #7f66ff;
+	border: solid 1px #ae3434;
 	background: rgba(127,102,255,0.67);
 	visibility: hidden;
 	opacity: 0;
@@ -1290,7 +1294,7 @@ section
 	bottom: 22px;
 	width: 191px;
 	height: 67px;
-	background: #7f66ff;
+	background: #ae3434;
 	padding-left: 21px;
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
@@ -1311,7 +1315,7 @@ section
 }
 .speaker_name a:hover
 {
-	color: #7f66ff;
+	color: #ae3434;
 }
 .speaker_title
 {
@@ -1445,7 +1449,7 @@ section
 	height: 59px;
 	border: none;
 	outline: none;
-	background: #7f66ff;
+	background: #ae3434;
 	border-bottom: solid 3px #ffffff;
 	cursor: pointer;
 	margin-top: 13px;
