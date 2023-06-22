@@ -85,119 +85,170 @@ Licence URI: http://www.os-templates.com/template-terms
       <p style="font-size:24px; color:#ba122b; font-weight:bold;"> CASPT2 Molecular Geometries in Transition Metal Chemistry </p> 
 <!--      <h1>Subheading</h1> -->
 
-      <p align="justify"> Multiconfigurational electronic structures have been shown to arise in a wide variety of metal complexes. For transition metals, 
-      this phenomena manifests in metal-metal bonds, spin-crossover complexes, and single molecule magnets. We are interested in using methods such as the
-      complete active space perturbation theory method (CASPT2) to study a wide variety of systems beyond DFT. Our work uses fully internally contracted (FIC)-CASPT2  
-      analytical gradients implemented in the <a rel="external" href="http://nubakery.org">BAGEL</a> program package, of which we are developers. 
+      <p align="justify"> Recent technological development of fully internally contracted gradients for second-order multireference complete active space methods (CASPT2) 
+      has enabled the geometry optimization of medium to large transition metal complexes. Our group has focused on using these methods to model the molecular geometries of 
+      iron spin-crossover complexes, copper corrole complexes, and Cr–Cr multiple bonds with CASPT2. While DFT geometries are often quite good for minima, 
+      this can break down when the electronic structure is best described with a multireference method. By performing geometry optimizations for the correct multireference ground state, 
+      one can ensure that the potential energy surface is described appropriately and avoid needing to take care with functional choice. This work is facilitated by implementations in the
+      <a rel="external" href="http://nubakery.org">BAGEL</a> program package, of which we are developers. 
       </p>
 
-     <br></br>
- 
-     <div id="gallery">
-        <figure>
-          <header class="heading"><center></center></header>
-          <ul class="nospace clear">
-            <li class="one_quarter first"><a><img src="images/research/gallery/doe1.png" alt=""></a></li>
-            <li class="one_quarter"><a href="https://doi.org/10.1039/D1CP04885F"><img src="images/research/gallery/doe2.png" alt=""></a></li>
-            <li class="one_quarter"><a href="https://doi.org/10.1021/acs.inorgchem.1c03005"><img src="images/research/gallery/doe3.png" alt=""></a></li>
-            <li class="one_quarter"><a href="http://dx.doi.org/10.1021/acs.chemrev.9b00496"><img src="images/research/gallery/doe4.png" alt=""></a></li>
-          </ul>
-          <figcaption><center></center></figcaption>
-        </figure>
-      </div>
+      <h1>CASPT2 molecular geometries of Fe(II) spin-crossover complexes</h1>
+      <a href="https://doi.org/10.1039/D1CP04885F"><img class="imgl borderedbox inspace-5" src="images/research/gallery/doe2-200x200.png" alt=""></a>
+      <p align="justify">Using fully internally contracted (FIC)-CASPT2 analytical gradients, geometry optimizations of spin-crossover complexes are reported. 
+      This approach is tested on a series of Fe(II) complexes with different sizes, ranging from 13 to 61 atoms. 
+      A combination of active space and basis set choices are employed to investigate their role in determining reliable molecular geometries. 
+      The reported strategy demonstrates that a wave function-based level of theory can be used to optimize the geometries of metal complexes 
+      in reasonable times and enables one to treat the molecular geometry and electronic structure of the complexes using the same level of theory. 
+      For a series of smaller Fe(II) SCO complexes, strong field ligands in the LS state result in geometries with the largest differences between DFT and CASPT2; 
+      however, good agreement overall is observed between DFT and CASPT2. For the larger complexes, 
+      moderate sized basis sets yield geometries that compare well with DFT and available experimental data. 
+      We recommend using the (10e,12o) active space since convergence to a minimum structure was more efficient
+      than with truncated active spaces despite having similar Fe–ligand bond distances. 
+      <a rel="external" href="https://doi.org/10.1039/D1CP04885F">Read more here</a> </p>
+     </br>
+
+     <h1>Importance of Dispersion in the Molecular Geometries of Mn(III) Spin-Crossover Complexes</h1>
+     <a href="https://pubs.acs.org/doi/10.1021/acs.jpca.2c08158"><img class="imgr borderedbox inspace-5" src="images/research/gallery/mn-toc-200.png" alt=""></a>
+     <p align="justify">The computational investigation of the molecular geometries of a pair of manganese(III) spin-crossover complexes is reported. 
+     For the geometry of the quintet high-spin state, density functionals significantly overestimate Mn–N<sub>amine</sub> bond distances, 
+     although the geometry for the triplet intermediate-spin state is well described. 
+     Comparisons with several wave function-based methods demonstrate that this error is due to the limited ability of commonly used density functionals to recover dispersion beyond a certain extent.
+     Among the methods employed for geometry optimization, 
+     restricted open-shell Møller–Plesset perturbation theory (MP2) appropriately describes the high-spin geometry but results in a slightly shorter Mn–O distance in both spin states. 
+     On the other hand, extended multistate complete active space second-order perturbation theory (XMS-CASPT2) provides a good description of the geometry for the intermediate-spin state 
+     but also sufficiently recovers dispersion, performing well for the high-spin state. 
+     Despite the fact that the electronic structure of both spin states is dominated by one-electron configuration, XMS-CASPT2 offers a balanced approach, 
+     leading to molecular geometries with much better agreement with experiment than MP2 and DFT. A scan along the Mn–N<sub>amine</sub> bond demonstrates 
+     that for these complexes coupled cluster methods (i.e., DLPNO-CCSD(T)) also yield bond distances in agreement with experiment while multiconfiguration 
+     pair density functional theory (MC-PDFT) is unable to recover dispersion well enough, analogous to single-reference DFT.
+     <a rel="external" href="https://pubs.acs.org/doi/10.1021/acs.jpca.2c08158">Read more here</a>  </p>
+
+     <h1>Computational Spectroscopy of the Cr&ndash;Cr Bond in Coordination Complexes</h1>
+     <a href="https://doi.org/10.1021/acs.inorgchem.1c03005"><img class="imgl borderedbox inspace-5" src="images/research/gallery/cr2-toc-200.png" alt=""></a>
+     <p align="justify">We report the accurate computational vibrational analysis of the Cr–Cr bond in dichromium complexes using second-order multireference 
+     complete active space methods (CASPT2), allowing direct comparison with experimental spectroscopic data both to facilitate interpreting the low-energy 
+     region of the spectra and to provide insights into the nature of the bonds themselves. 
+     Recent technological development by the authors has realized such computation for the first time. 
+     Accurate simulation of the vibrational structure of these compounds has been hampered by their notorious multiconfigurational electronic structure 
+     that yields bond distances that do not correlate with bond order. Some measured Cr–Cr vibrational stretching modes, &nu;(Cr<sub>2</sub>), 
+     have suggested weaker bonding, even for so-called ultrashort Cr–Cr bonds, while others are in line with the bond distance. 
+     Here, we optimize geometries and compute &nu;(Cr<sub>2</sub>) with CASPT2 for three well-characterized complexes, Cr<sub>2</sub>(O<sub>2</sub>CCH<sub>3</sub>)<sub>4</sub>(H2O)<sub>2</sub>,
+     Cr<sub>2</sub>(mhp)<sub>4</sub>, and Cr<sub>2</sub>(dmp)<sub>4</sub>. 
+     We obtain CASPT2 harmonic &nu;(Cr<sub>2</sub>) modes in good agreement with experiment at 282 cm<sup>-1</sup> for Cr<sub>2</sub>(mhp)<sub>4</sub> and 353 cm<sup>-1</sup> for 
+     Cr<sub>2</sub>(dmp)<sub>4</sub>, compute <sup>50</sup>Cr and <sup>54</sup>Cr isotope shifts, 
+     and demonstrate that the use of the so-called IPEA shift leads to improved Cr–Cr distances. 
+     Additionally, normal mode sampling was used to estimate anharmonicity along &nu;(Cr<sub>2</sub>), 
+     leading to an anharmonic mode of 272 cm<sup>-1</sup> for Cr<sub>2</sub>(mhp)<sub>4</sub> and 333 cm<sup>-1</sup> for Cr<sub>2</sub>(dmp)<sub>4</sub>.
+     <a rel="external" href="https://doi.org/10.1021/acs.inorgchem.1c03005">Read more here</a> </p>
+
 
     <!-- RESEARCH AREA 2 -->
+      <p style="font-size:24px; color:#ba122b; font-weight:bold;"> Computational Modeling in <i>f</i>-element Chemistry</p>
+  
+      <p align="justify"> The 5<i>f</i>-orbitals and 6<i>d</i>-orbitals are well-known to engage in bonding motifs with multiconfigurational electronic structures 
+      and spin-orbit effects are frequently large. We perform state-of-the-art calculations that can be systematically improved on systems ranging from small molecules 
+      to large coordination complexes containing actinides. Our goal is to use higher-level methods than traditionally applied in the literature. 
+      We make synergistic comparisons between theory and highly accurate spectroscopic measurements. 
+      By computing properties using fully relativistic CASPT2 methods based on the Dirac equation (Dirac-CASPT2),
+      we can understand the importance of the different relativistic effects as well as characterize the contributions from non-dynamic and dynamic correlation. 
+      Specifically, we study organoactinide complexes in collaboration with synthetic chemists, small molecules in collaboration with spectroscopists, 
+      and examine systematically chosen systems in collaboration with theoretical chemists developing new methods. </p>
+
+      <h1>Actinide arene-metalates: ion pairing effects on the electronic structure of unsupported uranium–arenide sandwich complexes</h1>
+      <a href="https://doi.org/10.1039/D1CP04885F"><img class="imgl borderedbox inspace-5" src="images/research/gallery/act1-200x200.png" alt=""></a>
+      <p align="justify">Addition of [UI2(THF)3(μ-OMe)]2·THF (2·THF) to THF solutions containing 6 equiv. of K[C14H10] generates the heteroleptic dimeric complexes 
+      [K(18-crown-6)(THF)2]2[U(η6-C14H10)(η4-C14H10)(μ-OMe)]2·4THF (118C6·4THF) and {[K(THF)3][U(η6-C14H10)(η4-C14H10)(μ-OMe)]}2 (1THF) 
+      upon crystallization of the products in THF in the presence or absence of 18-crown-6, respectively. 
+      Both 118C6·4THF and 1THF are thermally stable in the solid-state at room temperature; however, after crystallization, 
+      they become insoluble in THF or DME solutions and instead gradually decompose upon standing. X-ray diffraction analysis reveals 118C6·4THF and 1THF to be structurally similar, 
+      possessing uranium centres sandwiched between bent anthracenide ligands of mixed tetrahapto and hexahapto ligation modes. 
+      Yet, the two complexes are distinguished by the close contact potassium-arenide ion pairing that is seen in 1THF but absent in 118C6·4THF, 
+      which is observed to have a significant effect on the electronic characteristics of the two complexes. Structural analysis, 
+      SQUID magnetometry data, XANES spectral characterization, and computational analyses are generally consistent with U(IV) 
+      formal assignments for the metal centres in both 118C6·4THF and 1THF, though noticeable differences are detected between the two species. 
+      For instance, the effective magnetic moment of 1THF (3.74 μB) is significantly lower than that of 118C6·4THF (4.40 μB) at 300 K. 
+      Furthermore, the XANES data shows the U LIII-edge absorption energy for 1THF to be 0.9 eV higher than that of 118C6·4THF, 
+      suggestive of more oxidized metal centres in the former. 
+      Of note, CASSCF calculations on the model complex {[U(η6-C14H10)(η4-C14H10)(μ-OMe)]2}2− (1*) 
+      shows highly polarized uranium–arenide interactions defined by π-type bonds where the metal contributions are primarily comprised by the 6d-orbitals (7.3 ± 0.6%) 
+      with minor participation from the 5f-orbitals (1.5 ± 0.5%). These unique complexes provide new insights into actinide–arenide bonding interactions and show the 
+      sensitivity of the electronic structures of the uranium atoms to coordination sphere effects.
+      <a rel="external" href="https://doi.org/10.1039/D1CP04885F">Read more here</a></p>
+
+     <h1>Quantifying the Influence of Covalent Metal-Ligand Bonding on Differing Reactivity of Trivalent Uranium and Lanthanide Complexes</h1>
+     <a href="https://onlinelibrary.wiley.com/doi/10.1002/anie.202211145"><img class="imgr borderedbox inspace-5" src="images/research/gallery/dH-toc-200.png" alt=""></a>
+     <p align="justify">Qualitative differences in the reactivity of trivalent lanthanide and actinide complexes have long been attributed to differences in covalent metal-ligand bonding, 
+     but there are few examples where thermodynamic aspects of this relationship have been quantified, especially with U3+ and in the absence of competing variables. 
+     Here we report a series of dimeric phosphinodiboranate complexes with trivalent f-metals that show how shorter-than-expected U&ndasy;B distances 
+     indicative of increased covalency give rise to measurable differences in solution deoligomerization reactivity when compared to isostructural complexes with similarly sized lanthanides. 
+     These results, which are in excellent agreement with supporting DFT and QTAIM calculations, 
+     afford rare experimental evidence concerning the measured effect of variations in metal-ligand covalency on the reactivity of trivalent uranium and lanthanide complexes.
+     <a rel="external" href="https://onlinelibrary.wiley.com/doi/10.1002/anie.202211145">Read more here</a></p>
+
+     <br></br>
+
+     <h1>Uranium(III)-carbon multiple bonding supported by arene delta-bonding in mixed-valence hexauranium nanometre-scale rings</h1>
+     <a href="https://rdcu.be/PuIu"><img class="imgl borderedbox inspace-5" src="images/research/gallery/ring-200.jpg" alt=""></a>
+     <p align="justify"> Despite the fact that non-aqueous uranium chemistry is over 60 years old, most polarised-
+     covalent uranium-element multiple bonds involve formal uranium oxidation states IV, V, and
+     VI. The paucity of uranium(III) congeners is because, in common with metal-ligand multiple
+     bonding generally, such linkages involve strongly donating, charge-loaded ligands that bind
+     best to electron-poor metals and inherently promote disproportionation of uranium(III). Here,
+     we report the synthesis of hexauranium-methanediide nanometre-scale rings. Combined
+     experimental and computational studies suggest overall the presence of formal uranium(III)
+     and (IV) ions, though electron delocalisation in this Kramers system cannot be definitively
+     ruled out, and the resulting polarised-covalent U = C bonds are supported by iodide and
+     δ-bonded arene bridges. The arenes provide reservoirs that accommodate charge, thus
+     avoiding inter-electronic repulsion that would destabilise these low oxidation state metal-
+     ligand multiple bonds. Using arenes as electronic buffers could constitute a general synthetic
+     strategy by which to stabilise otherwise inherently unstable metal-ligand linkages.
+     <a rel="external" href="https://rdcu.be/PuIu">Read more here</a></p>
+
+
+     <!-- RESEARCH AREA 3 -->
      <p style="font-size:24px; color:#ba122b; font-weight:bold;"> Improving Sustainable Polymers with Computational Insights </p>
 
       <p align="justify"> Within the <a rel="external" href="http://csp.umn.edu">NSF Center for Sustainable Polymers (NSF CSP)</a>, we perform computational modeling
-      in combination with experiment to provide molecular-level insights to reaction mechanisms in order to guide the design of the next generation of catalysts. 
-      By means of a combination of density functional theory (DFT) and classical simulations, we address questions arising from experiments performed in the Center. 
+      in combination with experiment to provide molecular-level insights to reaction mechanisms in order to guide the design of the next generation of catalysts.
+      By means of a combination of density functional theory (DFT) and classical simulations, we address questions arising from experiments performed in the Center.
       We are currently collaboration with the Tolman group at Washington University in St. Louis, the Dauenhauer and Tonks groups at the University of Minnesota,
       and the Kalow group at Northwestern University. </p>
 
-     <br></br>
+      <h1>Ligand Effects on Decarbonylation of Palladium-Acyl Complexes</h1>
+      <a href="https://pubs.acs.org/doi/pdf/10.1021/acs.organomet.0c00584"><img class="imgl borderedbox inspace-5" src="images/research/gallery/csp1-200.png" alt=""></a>
+      <p align="justify"> The influences of perturbations of supporting phosphine ligands on the dehydrative decarbonylation of (Ln)PdII(Cl)-hydrocinnamoyl complexes
+      (L = PtBu3, n = 1; L = PPh3, n = 2; L = dppe, n = 1) to yield styrene were studied through combined experiment and theory.
+      Abstraction of chloride from the complexes by silver and zinc salts, as well as sodium tetrakis[3,5-bis(trifluoromethyl)phenyl]borate,
+      enhanced the efficiency of styrene formation, according to the following trend in L: PtBu3 > dppe > PPh3.
+      DFT calculations corroborated the experimental findings and provided insights into the ligand influences on reaction step barriers and transition state structures.
+      Key findings include the following: a stable intermediate forms after chloride abstraction, from which β-hydride elimination is most affected by ligand choice,
+      the low coordination number for the PtBu3 case lowers reaction barriers for all steps, and the trans disposition of two ligands for L = PPh3
+      contributes to the low efficiency for styrene production in that case.
+      <a rel="external" href="https://pubs.acs.org/doi/pdf/10.1021/acs.organomet.0c00584">Read more here</a></p>
 
-     <div id="gallery">
-        <figure>
-          <header class="heading"><center></center></header>
-          <ul class="nospace clear">
-            <li class="one_quarter first"><a href="https://pubs.acs.org/doi/pdf/10.1021/acs.organomet.0c00584"><img src="images/research/gallery/csp1.png" alt=""></a></li>
-            <li class="one_quarter"><a href="https://doi.org/10.1021/acscatal.1c00573"><img src="images/research/gallery/csp2.png" alt=""></a></li>
-            <li class="one_quarter"><a><img src="images/research/gallery/csp3.png" alt=""></a></li>
-            <li class="one_quarter"><a><img src="images/research/gallery/csp4.png" alt=""></a></li>
-          </ul>
-          <figcaption><center></center></figcaption>
-        </figure>
-      </div>
+      <br></br>
 
-<br/>
+      <h1>On the Spatial Design of Co-Fed Amines for Selective Dehydration of Methyl Lactate to Acrylates</h1>
+     <a href="https://pubs.acs.org/doi/10.1021/acs.jpca.2c08158"><img class="imgr borderedbox inspace-5" src="images/research/gallery/csp2-250.png" alt=""></a>
+     <p align="justify">
+Co-feeding an inert and site-selective chemical titrant provides desirable selectivity tuning when titrant adsorption is favored over side reaction pathways on a solid acid catalyst. Here, a selectivity enhancement from 61 to 84 C % was demonstrated for methyl lactate dehydration to methyl acrylate and acrylic acid over a NaY zeolite catalyst using amines as the co-fed titrants to suppress side reactions on in situ-generated Brønsted acid sites (BASs). The effectiveness of BAS titration was evaluated by considering both the basicity and steric properties of the titrant molecule with the goal to maximize the selectivity enhancement. The presence of electron-donating alkyl functional groups not only enhances amine basicity but also introduces additional steric constraints to the molecule with respect to the pore dimensions of the NaY zeolite. While higher basicity of titrant amines favors stronger adsorption on BASs, steric limitations hinder site binding through contributions from internal diffusion limitations and local steric repulsion between the titrant and the zeolite wall around the BAS. Titrant bases with proton affinities above ∼1040 kJ/mol and sizes below 85% of the NaY supercage window or pore diameter are predicted to afford dehydration selectivities above 90 C % to acrylate products.
+<a rel="external" href="https://pubs.acs.org/doi/10.1021/acs.jpca.2c08158">Read more here</a></p>
 
-    <!-- RESEARCH AREA 3 -->
-      <p style="font-size:24px; color:#ba122b; font-weight:bold;"> Computational Modeling in <i>f</i>-element Chemistry</p>
-
-
-      <p align="justify"> Our current work on the actinides focuses in two areas. The first focuses on understanding the role of the 5<i>f</i> and 6<i>d</i> orbitals
-      in bonding in uranium complexes. Specifically, we are interested in uranium-arene interactions and are studying a series of complexes in collaboration with
-      the Fortier group at the University of Texas El Paso. Using a combination of DFT and CASPT2 computations, we examine the role that covalent bonding, spin-orbit 
-      coupling, and the nature of multiple low-lying excited states play in determining experimental observations. The other core area of our group focuses on lanthanide
-      complexes. We are interested in improving ligands in volatile lanthanide complexes. We are also interested in understanding the speciation and reactivity of lanthanides
-      in solution. 
-      </p>
-
-     <br></br>
-
-     <div id="gallery">
-        <figure>
-          <header class="heading"><center></center></header>
-          <ul class="nospace clear">
-            <li class="one_quarter first"><a href="https://pubs.rsc.org/en/Content/ArticleLanding/2021/SC/D1SC03275E"><img src="images/research/gallery/act1.png" alt=""></a></li>
-            <li class="one_quarter"><a href="http://dx.doi.org/10.1021/acs.organomet.7b00429"><img src="images/research/gallery/act2.png" alt=""></a></li>
-            <li class="one_quarter"><a href="http://dx.doi.org/10.1021/acs.inorgchem.9b01628"><img src="images/research/gallery/act3.png" alt=""></a></li>
-            <li class="one_quarter"><a href="http://dx.doi.org/10.1039/C8CC02862A"><img src="images/research/gallery/act4.png" alt=""></a></li>
-          </ul>
-          <figcaption><center></center></figcaption>
-        </figure>
-      </div>
-      
-<br/>
-
-    <!-- RESEARCH AREA 4 -->
-      <p style="font-size:24px; color:#ba122b; font-weight:bold;">Gas Adsorption, Separations, Reactivity, and Sensing in Nanoporous Materials</p>
-
-      <p align="justify"> Nanoporous materials such as metal&ndash;organic frameworks (MOFs) and zeolites have been widely used for gas storage, separations,
-      catalysis, and sensing applications. In our group, we are interested in cases where selectivity of guest adsorption can be obtained by tuning intermolecular
-      interactions, where gas adsorption induced a change of spin-state in the material itself, or when a reaction can be improved due to confinement. </p> 
-
-     <br></br>
 <!--
-     <div id="gallery">
-        <figure>
-          <header class="heading"><center></center></header>
-          <ul class="nospace clear">
-            <li class="one_quarter first"><a href="https://pubs.rsc.org/en/Content/ArticleLanding/2021/SC/D1SC03275E"><img src="images/research/gallery/act1.png" alt=""></a></li>
-            <li class="one_quarter"><a href="http://dx.doi.org/10.1021/acs.organomet.7b00429"><img src="images/research/gallery/act2.png" alt=""></a></li>
-            <li class="one_quarter"><a href="http://dx.doi.org/10.1021/acs.inorgchem.9b01628"><img src="images/research/gallery/act3.png" alt=""></a></li>
-            <li class="one_quarter"><a href="http://dx.doi.org/10.1039/C8CC02862A"><img src="images/research/gallery/act4.png" alt=""></a></li>
-          </ul>
-          <figcaption><center></center></figcaption>
-        </figure>
-      </div>
-<br/>
--->
+     <h1>Defining the Macromolecules of Tomorrow through Synergistic Sustainable Polymer Research</h1>
+     <a href="https://pubs.acs.org/doi/full/10.1021/acs.chemrev.1c00173"><img class="imgl borderedbox inspace-5" src="images/research/gallery/doe3-200x200.png" alt=""></a>
+     <p align="justify">
+     Transforming how plastics are made, unmade, and remade through innovative research and diverse partnerships that together foster 
+     environmental stewardship is critically important to a sustainable future. Designing, preparing, 
+     and implementing polymers derived from renewable resources for a wide range of advanced applications that promote future economic development, energy efficiency, 
+     and environmental sustainability are all central to these efforts. 
+     In this Chemical Reviews contribution, we take a comprehensive, integrated approach to summarize important and impactful contributions to this broad research arena. 
+     The review highlights signature accomplishments across a broad research portfolio and is organized into four wide-ranging research themes that address the topic 
+     in a comprehensive manner: Feedstocks, Polymerization Processes and Techniques, Intended Use, and End of Use. 
+     We emphasize those successes that benefitted from collaborative engagements across disciplinary lines.
+     <a rel="external" href="https://pubs.acs.org/doi/full/10.1021/acs.chemrev.1c00173">Read more here</a></p>
 
-    <!-- RESEARCH AREA 3 
-     <p style="font-size:24px; color:#ba122b; font-weight:bold;"> Adsorption in Nanoporous Materials</p>
-
-      <p align="justify"> Nanoporous materials such as metal&ndash;organic frameworks (MOFs) and zeolites have been widely used for gas storage and separations,
-      catalysis, and sensing applications. In our group, we are interested in cases where selectivity of guest adsorption can be obtained by tuning intermolecular 
-      interactions. We are also interested in cases where the electronic structure changes during gas adsorption processes. We are currently collaborating with Prof. Roberta
-      Poloni at CNRS in Grenoble and Prof. Li-Chiang Lin at the Ohio State University. </p>
-      
-      <p align="center"> <img src="images/research/mof.gif" style="height:300px;"> </br></br>
-      
-      <i>Chem. Sci.</i> <b>2018</b>, 9, 4579&ndash;4588. (<a rel="external" href="http://dx.doi.org/10.1039/C8SC00971F">link</a>)
-      <p>  
-     
      --> 
       
   </main>
