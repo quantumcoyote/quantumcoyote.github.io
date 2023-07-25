@@ -29,30 +29,31 @@
               Structure-function relationships of polyoxometalates and
               polyoxovanadate-alkoxide clusters, 2) Machine learning models, and
               3) Heavy element chemistry.</p>
-            <h2>Understanding Structure-Function Relationships of
-              Polyoxovanadate-Alkoxide Clusters from a Bottom-Up Perspective</h2>
-            <p>Our group is interested in the computational exploration of the
-              chemical space of molecular metal oxides towards the
-              identification of key structure-function relationships relevant to
-              their speciation, nucleation roadmaps, and overall physicochemical
-              properties. In 2017, our group was awarded a South Dakota Board of
-              Regents Competitive Research grant (SDBoR CRG) to investigate the
-              nucleation of molecular metal oxides relevant to thin film
-              manufacturing. This state funded project was a steppingstone to
-              secure federal funding in this research area. In 2022, our group
-              was awarded NSF's Faculty Early Career Development Program
-              (CAREER) to expand our understanding of structure-function
-              relationships in polyoxovanadate-alkoxide (POV-alkoxide) clusters
-              from a bottom-up perspective. This project uses advanced
-              computational approaches to understand the nucleation and growth
-              of functionalized POV-alkoxide clusters, as well as the ability of
-              these clusters to activate small molecules. We use high-level
-              quantum chemical calculations and neural network algorithms to
-              examine the nucleation mechanism of first-row functionalized
-              POV-alkoxide clusters as well as to better understand the impact
-              of dynamic experimental conditions on the structure-redox
-              relationships and multi-electron reactivity of the clusters.
-              Specifically, a combination of density functional theory
+            <h2 style="text-align: justify;">Understanding Structure-Function
+              Relationships of Polyoxovanadate-Alkoxide Clusters from a
+              Bottom-Up Perspective</h2>
+            <p style="text-align: justify;">Our group is interested in the
+              computational exploration of the chemical space of molecular metal
+              oxides towards the identification of key structure-function
+              relationships relevant to their speciation, nucleation roadmaps,
+              and overall physicochemical properties. In 2017, our group was
+              awarded a South Dakota Board of Regents Competitive Research grant
+              (SDBoR CRG) to investigate the nucleation of molecular metal
+              oxides relevant to thin film manufacturing. This state funded
+              project was a steppingstone to secure federal funding in this
+              research area. In 2022, our group was awarded NSF's Faculty Early
+              Career Development Program (CAREER) to expand our understanding of
+              structure-function relationships in polyoxovanadate-alkoxide
+              (POV-alkoxide) clusters from a bottom-up perspective. This project
+              uses advanced computational approaches to understand the
+              nucleation and growth of functionalized POV-alkoxide clusters, as
+              well as the ability of these clusters to activate small molecules.
+              We use high-level quantum chemical calculations and neural network
+              algorithms to examine the nucleation mechanism of first-row
+              functionalized POV-alkoxide clusters as well as to better
+              understand the impact of dynamic experimental conditions on the
+              structure-redox relationships and multi-electron reactivity of the
+              clusters. Specifically, a combination of density functional theory
               calculations benchmarked against domain-based local pair natural
               orbital coupled cluster and second-order complete active space
               methodologies are being used to characterize nucleation
@@ -389,30 +390,27 @@
 	mso-para-margin:0in;	mso-pagination:widow-orphan;
 	font-size:10.0pt;	font-family:"Times New Roman",serif;}
 </style><![endif]-->
-            <h2>Lanthanide and Actinide Molecular Metal Oxides</h2>
+            <h2 style="text-align: justify;">Lanthanide and Actinide Molecular
+              Metal Oxides</h2>
             <h2></h2>
-            Our group is also interested in heavy element chemistry. In 2020, I
-            was awarded a second South Dakota Board of Regents Competitive
-            Research grant ($79,357) to study the nucleation and speciation of
-            low valent An(IV) metal oxides in aqueous media supporting a
-            postdoctoral researcher (Dr. Rameswar Bhattacharjee) and various
-            undergraduate students. Concurrent and subsequent to this state
-            proposal, multiple proposals were submitted to the DOE heavy
-            elements chemistry program, and I was part of a DOE Energy Frontier
-            Research Center proposal involving 4 universities, 2 national
-            laboratories, and 20 PIs focused on related chemistry; however, they
-            were not selected for funding. Nevertheless, these proposals helped
-            establish very important scientific connections that were key to now
-            being invited to participate in the renewal proposal of the Actinide
-            Center of Excellence (ACE) to be submitted this Fall. Furthermore,
-            we just got a DOE BES proposal funded in collaboration with Prof.
-            Knope (Georgetown University) and Prof. Nyman (Oregon State
-            University). This proposal aims to study critical materials
-            separations through metal-oxo cluster chemistry, specifically
-            lanthanides and noble metals. We have published three papers in this
-            area; however, we have one more that just have been accepted and
-            another one submitted (Table 5). This is a research area I expect to
-            expand further as my career continues to advance.
+            <div style="text-align: justify;">Our group is also interested in
+              heavy element chemistry. In 2020,our group was awarded a South
+              Dakota Board of Regents Competitive Research grant to study the
+              nucleation and speciation of low valent An(IV) metal oxides in
+              aqueous media. Concurrent and subsequent to this state proposal,
+              multiple proposals were submitted to the DOE heavy elements
+              chemistry program, and we&nbsp; was part of a DOE Energy Frontier
+              Research Center proposal involving 4 universities, 2 national
+              laboratories, and 20 PIs focused on related chemistry; however,
+              they were not selected for funding. Nevertheless, these proposals
+              helped establish very important scientific connections that were
+              key to now being invited to participate in the renewal proposal of
+              the Actinide Center of Excellence (ACE) to be submitted this Fall.
+              Furthermore, we just got a DOE BES proposal funded in
+              collaboration with Prof. Knope (Georgetown University) and Prof.
+              Nyman (Oregon State University). This proposal aims to study
+              critical materials separations through metal-oxo cluster
+              chemistry, specifically lanthanides and noble metals.</div>
             <!--[if gte mso 9]><xml>
  <w:WordDocument>  <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>  <w:TrackMoves/>
@@ -733,38 +731,34 @@
 	mso-para-margin:0in;	mso-pagination:widow-orphan;
 	font-size:10.0pt;	font-family:"Times New Roman",serif;}
 </style><![endif]--><br>
-            <br>
-            <h2>Dynamic Chemical Speciation Networks</h2>
-            <p>Another area of interest in my group is applying machine learning
-              models to materials science problems. We have published two papers
-              involving machine learning models applied to materials science
-              that were central to the thesis of my first Ph.D. student at USD
-              (Balaranjan Selvaratnam). For this reason, I chosen to highlight
-              them here. In the first paper, we used neural network potentials
-              (NNPs) trained against density functional theory (DFT) to
-              simultaneously predict the potential energy surface and multiple
-              quantum-mechanical properties relevant to the optoeletronic
-              properties of Cu2O (Physical Chemistry Chemical Physics, 2020, 22,
-              14910. DOI:10.1039/D0CP01112F). In this study, we also evaluated
+            <h2 style="text-align: justify;">Machine Learning and Dynamic
+              Chemical Speciation Networks</h2>
+            <p style="text-align: justify;">Another area of interest in our
+              group is applying machine learning models to materials science
+              problems. We have published various papers involving machine
+              learning models applied to materials science. We used neural
+              network potentials (NNPs) trained against density functional
+              theory (DFT) to simultaneously predict the potential energy
+              surface and multiple quantum-mechanical properties relevant to the
+              optoeletronic properties of Cu2O. In this study, we also evaluated
               the uncertainty of our NNP since it is common to encounter regions
               far the training data during molecular dynamics simulations. We
               used the standard deviation of a NNP snapshot-ensemble as an
               uncertainty measure. We developed a TensorFlow code that
-              interfaces with the Atomic Simulation Environment (ASE) that
+              interfaces with the Atomic Simulation Environment that
               automatically switches to using DFT during molecular dynamics
-              simulations when the explored region of the PES is not properly
-              described by the NNP. Furthermore, the newly calculated high-level
-              data points can be used to retrain the NNP and incorporate poorly
-              described PES regions. In the second one, we explored the
-              application of symmetry functions to large chemical spaces using a
-              new universal chemical descriptor developed in our group (Journal
-              Chemical Information and Modeling, 2020, 60, 1928-1935, DOI:
-              10.1021/acs.jcim.9b00835). This descriptor combines features from
+              simulations when the explored region of the potential energy
+              surface is not properly described by the NNP. Furthermore, the
+              newly calculated high-level data points can be used to retrain the
+              NNP and incorporate poorly described potential energy surface
+              regions. We also explored the application of symmetry functions to
+              large chemical spaces using a new universal chemical descriptor
+              developed in our group. This descriptor combines features from
               Behler-Parrinello’s symmetry functions with a periodic table
               representation in conjunction with convolutional neural network to
               reduce the number of neural network parameters to be trained and
               is being in various ongoing projects involving molecular metal
-              oxides and polyoxovanadate-alkoxide. </p>
+              oxides and alkoxides. </p>
           </section>
         </div>
       </div>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Miro Research Group</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Main -->
+      <div id="main">
+        <div class="inner">
+          <!-- Header -->
+          <header id="header">
+            <ul class="icons">
+              <li><a href="https://twitter.com/ChemMiroChem" class="icon brands fa-twitter"><span
+
+                    class="label">Twitter</span></a></li>
+              <li><a href="https://github.com/quantumcoyote?tab=repositories" class="icon brands fa-github"><span
+
+                    class="label">Twitter</span></a></li>
+              <li><a href="https://discord.gg/2tWRuKEW" class="icon brands fa-discord"><span
+
+                    class="label">Twitter</span></a></li>
+            </ul>
+          </header>
+          <!-- Content -->
+          <section>
+            <div style="text-align: center;"><span class="image main"><img
+
+                  style="width:400px;" src="images/jointeam.jpg" alt=""></span></div>
+            <hr class="major">
+            <h2>Postdoctoral Positions</h2>
+            <p style="text-align: justify;"> We currently do not have additional
+              postdoctoral positions advertised. If you qualify and are
+              interested in applying for an external postdoctoral fellowship,
+              please write to Dr. Miro and he would be interested in learning
+              more.</p>
+            <hr class="major">
+            <h2>PhD Student Positions</h2>
+            <p style="text-align: justify;"> Each spring and fall semester, the
+              USD Graduate School and Chemistry Department admit new students to
+              our program. My group is always interested in recruiting these
+              students to join our group. At the moment, we are specifically
+              searching for a highly motivated student to work on a project
+              supported by the Department of Energy on lanthanide speciation and
+              separations. Interested USD students should email Dr. Pere Miro
+              and set up a meeting to discuss research. Prospective graduate
+              students can write to either Dr. Miro or to Dr. CY Jiang, the
+              graduate coordinator, to learn more about the application process.</p>
+            <hr class="major">
+            <h2>Undergraduate Research</h2>
+            <p style="text-align: justify;"> My group is continuously searching
+              for USD science students (freshman to senior) interested in
+              performing undergraduate research. I have multiple positions
+              available during the Fall and Spring semesters as well as during
+              summer. Interested applicants should send a short paragraph
+              describing your research interests including the area of your
+              major/minor to Dr. Pere Miro. If you are not sure, you can always
+              email me to set up an informal meeting to learn more. </p>
+            <p style="text-align: justify;"> If you are not a USD student, but
+              interested in performing summer research at USD, the Chemistry
+              Department has an REU program that the Miro group participates in
+              and co-directs. Apply <a rel="external" href="http://www.usd.edu/arts-and-sciences/chemistry/reu">here</a>.
+            </p>
+          </section>
+          <!--
+								<section>								<h2> Current Funding </h2>								</section><h2>NSF CAREER: </h2><p>what to say </p><h2>DOE Karah: </h2><p> </p><h2>NSF Track II: </h2><p> </p><h2>NSF REU: </h2><p> </p>-->
+        </div>
+      </div>
+      <!-- Sidebar -->
+      <div id="sidebar">
+        <div class="inner">
+          <p style="text-align:center"> <img src="images/Miro_Logo_1.gif" alt=""
+
+              width="95%"> </p>
+          <!-- Menu -->
+          <nav id="menu">
+            <header class="major">
+              <h2>Menu</h2>
+            </header>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="research.html">Research</a></li>
+              <li><a href="publications.html">Publications</a></li>
+              <li><a href="group.html">Group</a></li>
+              <li><a href="photos.html">Photos</a></li>
+              <li><a href="openings.html">Openings</a></li>
+              <li><a href="mailto:pere.miro@usd.edu">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/browser.min.js"></script>
+      <script src="assets/js/breakpoints.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script> </div>
+  </body>
+</html>
